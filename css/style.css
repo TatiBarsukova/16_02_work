@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+
+body{
+    width: 100%;
+    height: 420px;
+    background-color: #121116;
+}
+
+.Logo-kasper{
+    display: block;
+    margin: 120px auto 51px;  
+}
+
+.intro container-title{
+    width: 100%;
+    max-width: 158px;
+    margin: 0;
+
+}
+
+h1{
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    
+}
+
+.container-title ::after{
+    content: "";
+    display: block;
+    width: 230px;
+    height: 1px;
+    background-color: #ffffff;
+    margin: 21px auto 36px ;
+}
+
+.Social-part{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.Facebook {
+    padding-right: 34px;
+}
+
+.Twiter {
+    padding-right: 34px;
+}
+
+.Google {
+    padding-right: 34px;
+}
+
+.Social-part ::after{
+    content: "";
+    display: block;
+    margin: 0 auto 141px ;
+}
+
+footer{
+    font-size: 15px;
+    font-family: "Open Sans - Semibold";
+    color: #ffffff;
+    text-align: center;   
+}
+
+.Kasper{
+    color: #00c7fc;
+}
+
+
+
